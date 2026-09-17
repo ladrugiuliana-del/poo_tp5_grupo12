@@ -20,6 +20,10 @@ public class Usuario {
     public void removerDelCarrito(Producto p) {
         carrito.remover(p);
     }
+    
+    public void vaciarCarrito() {
+    	this.carrito.vaciar();
+    }
 
     public double verTotalCarrito() {
         return carrito.total();
@@ -29,8 +33,8 @@ public class Usuario {
         System.out.println("Carrito de " + nombre + " -");
         for (ItemCarrito item : carrito.getItems()) {
             System.out.println(item.getCantidad() + "x " + item.getProducto().getNombre() + 
-                               "Subtotal: $" + item.subTotal());
+                               " - Subtotal: $" + item.subTotal());
         }
-        System.out.println("Total a pagar: $ARS" + verTotalCarrito());
+        System.out.println("Total a pagar: $ARS " + verTotalCarrito());
     }
 }
