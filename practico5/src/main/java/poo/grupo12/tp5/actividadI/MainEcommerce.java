@@ -40,7 +40,7 @@ public class MainEcommerce {
 				            prod_cantidad = entrada.nextInt();
 				            entrada.nextLine();
 							Usuario1.agregarAlCarrito(p, prod_cantidad);
-							System.out.println("Produco agregado de forma exitosa al carrito");
+							System.out.println("Producto agregado de forma exitosa al carrito");
 							bandera = false;
 						}
 					}
@@ -84,6 +84,7 @@ public class MainEcommerce {
 			case 5:
 				System.out.println("Carrito vaciado de forma exitosa");
 				Usuario1.vaciarCarrito();
+				break;
 			default:
 				System.out.println("Opción incorrecta.");
 				break;
