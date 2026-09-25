@@ -1,6 +1,12 @@
-package poo.grupo12.tp5.punto2.actividadI;
+package ar.edu.unju.fi.poo.practico5.actividad2.main;
 
 import java.util.Date;
+
+import ar.edu.unju.fi.poo.practico5.actividad2.manager.ManagerEnvios;
+import ar.edu.unju.fi.poo.practico5.actividad2.model.Envio;
+import ar.edu.unju.fi.poo.practico5.actividad2.model.Paquete;
+import ar.edu.unju.fi.poo.practico5.actividad2.model.RutaDiaria;
+import ar.edu.unju.fi.poo.practico5.actividad2.model.Vehiculo;
 
 public class MainEnvios {
 

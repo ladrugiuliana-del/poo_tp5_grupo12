@@ -1,7 +1,11 @@
-package poo.grupo12.tp5.punto2.actividadI;
+package ar.edu.unju.fi.poo.practico5.actividad2.manager;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ar.edu.unju.fi.poo.practico5.actividad2.model.Envio;
+import ar.edu.unju.fi.poo.practico5.actividad2.model.RutaDiaria;
+import ar.edu.unju.fi.poo.practico5.actividad2.model.Vehiculo;
 
 public class ManagerEnvios {
 	private List<Envio> envios;

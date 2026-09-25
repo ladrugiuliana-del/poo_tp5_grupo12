@@ -1,4 +1,4 @@
-package poo.grupo12.tp5.actividadI;
+package ar.edu.unju.fi.poo.practico5.actividad1.model;
 
 import java.util.ArrayList;
 import java.util.List;

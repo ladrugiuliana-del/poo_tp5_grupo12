@@ -1,6 +1,10 @@
-package poo.grupo12.tp5.actividadI;
+package ar.edu.unju.fi.poo.practico5.actividad1.main;
 
 import java.util.Scanner;
+
+import ar.edu.unju.fi.poo.practico5.actividad1.manager.ManagerProducto;
+import ar.edu.unju.fi.poo.practico5.actividad1.model.Producto;
+import ar.edu.unju.fi.poo.practico5.actividad1.model.Usuario;
 
 public class MainEcommerce {
 

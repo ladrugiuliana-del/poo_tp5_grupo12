@@ -1,7 +1,9 @@
-package poo.grupo12.tp5.actividadI;
+package ar.edu.unju.fi.poo.practico5.actividad1.manager;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ar.edu.unju.fi.poo.practico5.actividad1.model.Producto;
 
 public class ManagerProducto {
 
